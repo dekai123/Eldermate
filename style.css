@@ -17,13 +17,13 @@ body { /*ขอบตัวอักษร*/
 }
 
 /* สำหรับหน้าจอที่มีความกว้างไม่เกิน 600px (เช่น โทรศัพท์มือถือ) */
-@media screen and (max-width: 600px) {
+/*@media screen and (max-width: 600px) {
   body {
     background-color: lightblue;
   }
 }
 
-/* สำหรับหน้าจอที่มีความกว้างมากกว่า 600px */
+
 @media screen and (min-width: 601px) {
   body {
     background-color: lightgreen;
@@ -43,7 +43,7 @@ body { /*ขอบตัวอักษร*/
     font-size: 18px;
   }
   
-}
+}*/
 
 .kanit-thin {
   font-family: "Kanit", sans-serif;
