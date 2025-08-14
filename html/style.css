@@ -1,0 +1,2172 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body { /*ขอบตัวอักษร*/
+    color: #000000;
+    text-shadow: 
+    -2px -2px 0 rgb(255, 255, 255),
+    2px -2px 0 rgb(255, 255, 255),
+    -2px 2px 0 rgb(255, 255, 255),
+    2px 2px 0 rgb(255, 255, 255);
+}
+
+.kanit-thin {
+  font-family: "Kanit", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.kanit-extralight {
+  font-family: "Kanit", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.kanit-light {
+  font-family: "Kanit", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.kanit-regular {
+  font-family: "Kanit", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.kanit-medium {
+  font-family: "Kanit", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.kanit-semibold {
+  font-family: "Kanit", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.kanit-bold {
+  font-family: "Kanit", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.kanit-extrabold {
+  font-family: "Kanit", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.kanit-black {
+  font-family: "Kanit", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.kanit-thin-italic {
+  font-family: "Kanit", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.kanit-extralight-italic {
+  font-family: "Kanit", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.kanit-light-italic {
+  font-family: "Kanit", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.kanit-regular-italic {
+  font-family: "Kanit", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.kanit-medium-italic {
+  font-family: "Kanit", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.kanit-semibold-italic {
+  font-family: "Kanit", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.kanit-bold-italic {
+  font-family: "Kanit", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.kanit-extrabold-italic {
+  font-family: "Kanit", sans-serif;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.kanit-black-italic {
+  font-family: "Kanit", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+
+.highlight{
+    background-color: #ffff97cb;
+}
+
+
+body {
+    background-image: url('หน้ารอง.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+
+
+
+body{
+    padding-top: 100;
+    font-family: 'Kanit';
+    font-size: larger;
+
+}
+
+
+.top-bar {
+   /*position: fixed;*/
+    top: 0;
+    left: 0;
+    height: 40px;
+    width: 100%;
+    background-color: #91c4f6;
+    display: flex;/*เรียงข้อความเเนวยาว*/
+    justify-content: space-between;/*เว้นระยะห่าง*/
+    align-items: center;/*อยู่ตรงกลางในแนวแกนx*/
+    padding: 8px;
+    /*z-index: 100;*/
+}
+
+nav {/*แต่งเมนู*/
+    display: flex;
+   /* position: fixed;*/
+    top: 100;
+    left: 0;
+    background-color: #fff;
+    outline: 1px solid #dcdddd;
+    height: 80px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+   /* margin-top: 40px;
+    z-index: 90;*/
+}
+   
+
+    & .menu, .account-menu, .menu2{
+        display: flex;
+
+        & li {
+            margin: 0 1rem;
+        }
+    }
+
+
+ 
+.search-box{
+    display: flex;
+    align-items: center;
+    background-color: #f2f2f2;
+    border-radius: 50px;
+    padding: 8px 15px;
+    width: 400px;
+    margin: 20px; 
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);  
+    
+}
+
+.search-box i {
+    margin: 0 10px;
+    color: gray;
+    font-size: 18px;
+}
+
+.search-input {
+    flex: 1;
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 16px;
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+}
+
+
+.first {
+    color: #0a0514;
+    text-align: center;
+    align-items: center;
+    background-color: #ffffffaf;
+    border-radius: 20px;
+    padding: 20px 50px;
+    margin: 70px auto;
+    width: 500px;
+    box-shadow: 0 2px 5px rgba(104, 100, 225, 0.1)
+
+}
+
+@keyframes fadeInAndSlideUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.คน, .main-wrapper{
+  animation: fadeInAndSlideUp 1s ease-out forwards;
+}
+.คน {
+    display: flex;
+
+}
+
+.box-el{
+  height: 65%;
+  width: 51%;
+  margin-bottom: 15px; 
+}
+.box1 {
+    width: 170%;
+    height: 450px;
+    background-color: #8ac8d0;
+    text-align: center;
+    padding: 30px;
+    font-size: 32px;
+    box-shadow: rgba(0, 0, 0, 0.5s);
+    translate: (0,0);
+    transition: transform 0.05 ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+    
+     }
+    
+.box1:hover{ /*วางเมาส์แล้วเด้ง*/
+    transform: scale(1.02);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+}
+
+.box1:active { /*กดเเล้วเด้ง*/
+    transform: scale(0.95);
+    background-color: #c8f3f8;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.box2 {
+    width: 170%;
+    height: 450px;
+    background-color: #ffa9cc;
+    text-align: center;
+    padding: 20px;
+    font-size: 32px;
+    translate: (0,0);
+    transition: transform 0.05 ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+     }
+
+.box2:hover{
+    transform: scale(1.02);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+}
+
+.box2:active {
+    transform: scale(0.95);
+    background-color: #f3c8ef;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.box3 {
+    width: 170%;
+    height: 450px;
+    background-color: #f7da9c;
+    text-align: center;
+    padding: 20px;
+    font-size: 32px;
+    translate: (0,0);
+    transition: transform 0.05 ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+    
+    }
+
+.box3:hover{
+    transform: scale(1.02);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+}
+
+.box3:active {
+    transform: scale(0.95);
+    background-color: #f5e7bf;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+.page-center {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+/* จัดเรียงกล่องทั้งสามให้อยู่ในแนวนอน */
+.main-wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 20px; 
+}
+
+.box1, .box2, .box3 {
+  border: 1px solid #ccccccc7;
+  padding: 15px;
+  width: 400px;
+  text-align: center; 
+}
+
+/* จัดรูปภาพและข้อความในแต่ละกล่องให้อยู่ในแนวนอน */
+.box-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+}
+
+.box-image {
+  height:auto;
+  width: 100%; 
+  margin-bottom: 15px; 
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul li a {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+  color: #333; 
+}
+.mainvid {
+    color: #162e6e;
+    text-align: center;
+    background-color: #ffffffb2;
+    width: 900px;
+    padding: 50px 50px;
+    margin: 70px auto;        
+}
+/* Physical */
+
+.Ptext1 {
+    color: #142e5e;
+    text-align: center;
+    align-items: center;
+    background-color: #ffffffb7;
+    border-radius: 20px;
+    padding: 70px 50px;
+    margin: 70px auto;
+    width: 500px;
+    box-shadow: 0 2px 5px rgba(104, 100, 225, 0.1)
+}
+
+.Ptext2{
+    color: #142e5e;
+    text-align: center;
+}
+
+.vid1 { /*กรอบ*/
+    color: #162e6e;
+    text-align: center;
+    background-color: #ffffffa9;
+    width: 900px;
+    padding: 50px 50px;
+    margin: 70px auto;    
+}
+
+/* Health and Wellness */
+
+.bodyroll, .bodyclean, .bodycure, .mentalh  {
+   
+    width: 50%;
+    height: 70px;
+    background-color:#fef8fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    font-size: 45px;
+    margin: 70px auto;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 60%;
+    box-shadow: 0 9px 0 0 #79583d;
+    translate: (0,0);
+    transition: transform 0.05 ease;
+    
+    
+}
+
+.bodyroll, .bodyclean, .bodycure, .mentalh :hover{ /*วางเมาส์แล้วเด้ง*/
+    transform: scale(1.02);
+    
+}
+
+.roll1 { /* หัวข้อ1 */
+   color: #0a0514;
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 25px 20px;
+    margin: 15px auto;
+    box-shadow: 0 2px 5px rgba(104, 100, 225, 0.1)
+}
+
+.roll2 { /* column 1*/
+    text-align: left;
+    border-radius: 10px;
+    padding: 25px 20px;
+    color: #162e6e;
+    text-align: center;
+    background-color: #ffffffa9;
+    width: 900px;
+    padding: 50px 50px;
+    margin: 70px auto;    
+}
+    
+
+
+.roll3 { 
+    color: #0a0514;
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 25px 20px;
+    margin: 15px auto;
+    box-shadow: 0 2px 5px rgba(104, 100, 225, 0.1)
+
+}
+.roll4{
+    text-align: left;
+    border-radius: 10px;
+    padding: 25px 20px;
+    word-spacing: 8px;
+    letter-spacing: 1px;
+    white-space: normal;
+    color: #162e6e;
+    text-align: center;
+    background-color: #ffffffa9;
+    width: 900px;
+    padding: 50px 50px;
+    margin: 70px auto;    
+}
+
+
+.broll21 {
+    display: flex;
+    justify-content: space-around;
+}
+.boxroll1 , .boxroll2 {
+    display: block;      
+    margin-left: auto; 
+    margin-right: auto;  
+    width: 40%;          
+    max-width: 350%;
+    height: auto;
+    color: #162e6e;
+    text-align: center;
+    background-color: #ffffff;
+    width: 500px;
+    padding: 40px 40px; /*ขอบรุป */
+    margin: 70px auto;
+}
+
+.rollvid {
+    color: #162e6e;
+    text-align: center;
+    background-color: #ffffff;
+    width: 900px;
+    padding: 50px 50px;
+    margin: 70px auto;    
+}
+
+.clean1{
+    color: #0a0514;
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 25px 20px;
+    margin: 15px auto;
+    box-shadow: 0 2px 5px rgba(104, 100, 225, 0.1)
+}
+.clean2{
+    text-align: center;
+    border-radius: 10px;
+    padding: 25px 20px;   
+    color: #162e6e;
+    text-align: center;
+    background-color: #ffffffa9;
+    width: 500px;
+    padding: 40px 40px; /*ขอบรุป */
+    margin: 70px auto; 
+}
+.clean3{
+    color: #0a0514;
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 25px 20px;
+    margin: 15px auto;
+    box-shadow: 0 2px 5px rgba(104, 100, 225, 0.1)
+}
+.clean4{
+    text-align: center;
+    border-radius: 10px;
+    padding: 25px 20px;
+    text-align: center;
+    background-color: #ffffffa9;
+    width: 500px;
+    padding: 40px 40px; /*ขอบรุป */
+    margin: 70px auto;     
+
+}
+.box-clean {
+    display: block;      
+    margin-left: auto; 
+    margin-right: auto;  
+    width: 35%;          
+    max-width: 250%;
+    height: auto;
+    color: #162e6e;
+    text-align: center;
+    background-color: #ffffff;
+    width: 700px;
+    padding: 30px 30px;
+    margin: 50px auto;    
+}
+
+.cleanpic {
+    display: block;      
+    margin-left: auto; 
+    margin-right: auto;  
+    width: 40%;          
+    max-width: 350%;
+    height: auto;
+    color: #162e6e;
+    text-align: center;
+    background-color: #ffffff;
+    width: 450px;
+    padding: 40px 40px; /*ขอบรุป */
+    margin: 70px auto;
+}
+.vidclean {
+    color: #162e6e;
+    text-align: center;
+    background-color: #ffffff;
+    width: 900px;
+    padding: 50px 50px;
+    margin: 70px auto;    
+}
+.cure1{
+    color: #0a0514;
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 25px 20px;
+    margin: 15px auto;
+    box-shadow: 0 2px 5px rgba(104, 100, 225, 0.1)
+}
+
+.cure2{
+    text-align: center;
+    border-radius: 10px;
+    padding: 25px 20px;
+    color: #162e6e;
+    text-align: center;
+    background-color: #ffffffa9;
+    width: 900px;
+    padding: 50px 50px;
+    margin: 70px auto;      
+}
+
+.cure3{
+    text-align: center;
+    border-radius: 10px;
+    padding: 25px 20px;
+    color: #162e6e;
+    text-align: center;
+    background-color: #ffffffa9;
+    width: 900px;
+    padding: 50px 50px;
+    margin: 70px auto;      
+}
+
+.cure4{
+    text-align: center;
+    border-radius: 10px;
+    padding: 25px 20px;
+    color: #162e6e;
+    text-align: center;
+    background-color: #ffffffa9;
+    width: 900px;
+    padding: 50px 50px;
+    margin: 70px auto;      
+}
+
+.boxcure {
+    display: block;      
+    margin-left: auto; 
+    margin-right: auto;  
+    width: 35%;          
+    max-width: 250%;
+    height: auto;
+    color: #162e6e;
+    text-align: center;
+    background-color: #ffffff;
+    width: 600px;
+    padding: 30px 30px;
+    margin: 50px auto;   
+}
+
+.curevid {
+    color: #162e6e;
+    text-align: center;
+    background-color: #ffffff;
+    width: 900px;
+    padding: 50px 50px;
+    margin: 70px auto;    
+}
+
+.elder, .helper {
+   
+    width: 50%;
+    height: 70px;
+    background-color:#fef8fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    font-size: 45px;
+    margin: 70px auto;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 60%;
+    box-shadow: 0 9px 0 0 #79583d;
+}
+
+.el1{
+     color: #0a0514;
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 25px 20px;
+    margin: 15px auto;
+    box-shadow: 0 2px 5px rgba(104, 100, 225, 0.1)
+}
+
+.el2{
+    text-align: center;
+    border-radius: 10px;
+    padding: 25px 20px;
+    color: #162e6e;
+    text-align: center;
+    background-color: #ffffffa9;
+    width: 900px;
+    padding: 50px 50px;
+    margin: 70px auto;  
+}
+
+.elhel {
+    display: block;      
+    margin-left: auto; 
+    margin-right: auto;  
+    width: 40%;          
+    max-width: 350%;
+    height: auto;
+    color: #162e6e;
+    text-align: center;
+    background-color: #ffffff;
+    width: 450px;
+    padding: 40px 40px; /*ขอบรุป */
+    margin: 70px auto;
+}
+
+.elvid {
+    color: #162e6e;
+    text-align: center;
+    background-color: #ffffff;
+    width: 900px;
+    padding: 50px 50px;
+    margin: 70px auto;    
+}
+
+.he1{
+     color: #0a0514;
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 25px 20px;
+    margin: 15px auto;
+    box-shadow: 0 2px 5px rgba(104, 100, 225, 0.1)
+}
+
+.he2{
+     text-align: center;
+    border-radius: 10px;
+    padding: 25px 20px;
+    color: #162e6e;
+    text-align: center;
+    background-color: #ffffffa9;
+    width: 900px;
+    padding: 50px 50px;
+    margin: 70px auto;  
+}
+
+.he3{
+     text-align: center;
+     color: #912d2d;
+}
+
+.he4{
+     text-align: center;
+    border-radius: 10px;
+    padding: 25px 20px;
+    color: #162e6e;
+    text-align: center;
+    background-color: #ffffffa9;
+    width: 900px;
+    padding: 50px 50px;
+    margin: 70px auto;      
+}
+
+
+.he4{
+     text-align: center;
+    border-radius: 10px;
+    padding: 25px 20px;
+    color: #162e6e;
+    text-align: center;
+    background-color: #ffffffa9;
+    width: 900px;
+    padding: 50px 50px;
+    margin: 70px auto;      
+}
+
+.he5 {
+     text-align: center;
+    border-radius: 10px;
+    padding: 25px 20px;
+    color: #162e6e;
+    text-align: center;
+    background-color: #ffffffa9;
+    width: 900px;
+    padding: 50px 50px;
+    margin: 70px auto;      
+}
+
+.he6 {
+     text-align: center;
+    border-radius: 10px;
+    padding: 25px 20px;
+    color: #162e6e;
+    text-align: center;
+    background-color: #ffffffa9;
+    width: 900px;
+    padding: 50px 50px;
+    margin: 70px auto;      
+}
+
+.book1, .book2, .book3 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.bookpic1, .bookpic2, .bookpic3 {
+    display: block;      
+    margin-left: auto; 
+    margin-right: auto;  
+    width: 35%;          
+    max-width: 250%;
+    height: auto;
+    color: #162e6e;
+    text-align: center;
+    background-color: #ffffff;
+    width: 600px;
+    padding: 30px 30px;
+    margin: 50px auto;       
+}
+
+.hepod{
+     text-align: center;
+     color: #912d2d;
+}
+
+.hevid {
+     text-align: center;
+    border-radius: 10px;
+    padding: 25px 20px;
+    color: #162e6e;
+    text-align: center;
+    background-color: #ffffffa9;
+    width: 900px;
+    padding: 50px 50px;
+    margin: 70px auto;      
+}
+
+
+.nut1{
+    color: #0a0514;
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 25px 20px;
+    margin: 15px auto;
+    box-shadow: 0 2px 5px rgba(104, 100, 225, 0.1)
+}
+
+.nut2{
+    text-align: center;
+    border-radius: 10px;
+    padding: 25px 20px;
+    color: #162e6e;
+    text-align: center;
+    background-color: #ffffffa9;
+    width: 900px;
+    padding: 50px 50px;
+    margin: 70px auto; 
+}
+
+.cooking {
+   
+    width: 50%;
+    height: 70px;
+    background-color:#fef8fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    font-size: 45px;
+    margin: 70px auto;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 60%;
+    box-shadow: 0 9px 0 0 #79583d;
+}
+
+.cook1, .cook2, .cook3, .cook4 {
+   
+    width: 50%;
+    height: 70px;
+    background-color:#fef8fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    font-size: 45px;
+    margin: 70px auto;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 60%;
+    box-shadow: 0 9px 0 0 #79583d;
+}
+
+.diet {
+   
+    width: 50%;
+    height: 70px;
+    background-color:#fef8fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    font-size: 45px;
+    margin: 70px auto;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 60%;
+    box-shadow: 0 9px 0 0 #79583d;
+}
+
+.joke1{
+    color: #0a0514;
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 25px 20px;
+    margin: 15px auto;
+    box-shadow: 0 2px 5px rgba(104, 100, 225, 0.1)
+}
+.joke{
+    display: flex;
+    justify-content: space-around;
+}
+
+.joke2 { /* column 1*/
+    text-align: center;
+    border-radius: 10px;
+    padding: 25px 20px;
+    display: center;
+    margin-left: 50px;
+
+    color: #162e6e;
+    text-align: center;
+    background-color: #ffffffa9;
+    width: 900px;
+    padding: 30px 30px;
+    margin: 70px;
+}
+.joke3{ /* column 1*/
+    text-align: center;
+    border-radius: 10px;
+    padding: 25px 20px;
+    display: center;
+    margin-right: 50px;
+
+    color: #162e6e;
+    text-align: center;
+    background-color: #ffffffa9;
+    width: 50%;
+    height: 70%;
+    margin: 70px;    
+}
+
+.joke4 {
+    text-align: center;
+    border-radius: 10px;
+    padding: 25px 20px;
+    display: center;
+    margin-left: 50px;
+
+}
+
+.joke5 {
+    
+    text-align: center;
+    background-color: #fa655a;
+    border-radius: 10px;
+    padding: 25px 20px;
+    margin: 15px auto;
+    box-shadow: 0 2px 5px rgba(104, 100, 225, 0.1)
+}
+
+.joke6 {
+    color: #162e6e;
+    text-align: center;
+    background-color: #ffffffa9;
+    width: 800px;
+    height: 350px;
+    padding: 50px 50px;
+    margin: 70px auto;    
+    border-radius: 10px;
+}
+
+.box-joke {
+    display: block;      /* 1. Make it a block-level element */
+    margin-left: auto;   /* 2. Auto margin on left */
+    margin-right: auto;  /* 3. Auto margin on right */
+    width: 100%;          /* Optional: Set a specific width (e.g., 80% of its container) */
+    max-width: 250%;
+    height: 100%;
+    color: #162e6e;
+    text-align: center;
+    background-color: #ffffff;
+    width: 420px;
+    padding: 30px 30px;
+    margin: 70px auto;
+}
+
+
+
+.vid2 {
+    color: #162e6e;
+    text-align: center;
+    background-color: #ffffff;
+    width: 900px;
+    padding: 30px 30px;
+    margin: 70px auto;
+}
+
+.kai1{
+    color: #0a0514;
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 25px 20px;
+    margin: 15px auto;
+    box-shadow: 0 2px 5px rgba(104, 100, 225, 0.1)
+}
+
+.kai2 { /* column 1*/
+    text-align: center;
+    border-radius: 10px;
+    padding: 25px 20px;
+    display: center;
+    margin-left: 50px;
+    color: #162e6e;
+    text-align: center;
+    background-color: #ffffffa9;
+    width: 900px;
+    padding: 30px 30px;
+    margin: 70px;
+
+
+}
+.kai3{ /* column 1*/
+   text-align: center;
+    border-radius: 10px;
+    padding: 25px 20px;
+    display: center;
+    margin-left: 50px;
+    color: #162e6e;
+    text-align: center;
+    background-color: #ffffffa9;
+    width: 900px;
+    padding: 30px 30px;
+    margin: 70px;
+}
+
+.kai{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.box-kaitun{
+    display: block;      
+    margin-left: auto; 
+    margin-right: auto;  
+    width: 35%;          
+    max-width: 250%;
+    height: auto;
+    color: #162e6e;
+    text-align: center;
+    background-color: #ffffff;
+    width: 420px;
+    padding: 30px 30px;
+    margin: 70px auto;
+}
+
+.kai4{
+   text-align: center;
+    border-radius: 10px;
+    padding: 25px 20px;
+    display: center;
+    margin-left: 50px;
+}
+
+.kai5{
+    
+    text-align: center;
+    background-color: #fa655a;
+    border-radius: 10px;
+    padding: 25px 20px;
+    margin: 15px auto;
+    box-shadow: 0 2px 5px rgba(104, 100, 225, 0.1)
+}
+
+.kai6 {
+    color: #162e6e;
+    text-align: center;
+    background-color: #ffffffa9;
+    width: 800px;
+    height: 300px;
+    padding: 50px 50px;
+    margin: 70px auto;    
+    border-radius: 10px;
+}
+
+.kaivid{
+    color: #162e6e;
+    text-align: center;
+    background-color: #ffffff;
+    width: 800px;
+    padding: 30px 30px;
+    margin: 70px auto;
+    display: block;   
+    left: 80%;
+}
+
+.boiled1{
+    color: #0a0514;
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 25px 20px;
+    margin: 15px auto;
+    box-shadow: 0 2px 5px rgba(104, 100, 225, 0.1)
+}
+.boiled{
+    display: flex;
+    justify-content: space-around;
+}
+
+.boiled2 { /* column 1*/
+    text-align: center;
+    border-radius: 10px;
+    padding: 25px 20px;
+    display: center;
+    margin-left: 50px;
+    color: #162e6e;
+    text-align: center;
+    background-color: #ffffffa9;
+    width: 900px;
+    padding: 30px 30px;
+    margin: 70px;
+    
+}
+.boiled3{ /* column 1*/
+    text-align: center;
+    border-radius: 10px;
+    padding: 25px 20px;
+    display: center;
+    margin-right: 50px;
+    color: #162e6e;
+    text-align: center;
+    background-color: #ffffffa9;
+    width: 900px;
+    padding: 30px 30px;
+    margin: 70px;
+}
+.box-boiled{
+    display: block;      
+    margin-left: auto; 
+    margin-right: auto;  
+    width: 35%;          
+    max-width: 250%;
+    height: auto;
+    color: #162e6e;
+    text-align: center;
+    background-color: #ffffff;
+    width: 420px;
+    padding: 30px 30px;
+    margin: 70px auto;
+}
+
+.boiled4 {
+    text-align: center;
+    border-radius: 10px;
+    padding: 25px 20px;
+    display: center;
+    margin-left: 50px;
+}
+
+.boiled5 {
+
+    text-align: center;
+    background-color: #fa655a;
+    border-radius: 10px;
+    padding: 25px 20px;
+    margin: 15px auto;
+    box-shadow: 0 2px 5px rgba(104, 100, 225, 0.1)   
+}
+
+.boiled6 {
+    color: #162e6e;
+    text-align: center;
+    background-color: #ffffffa9;
+    width: 800px;
+    height: 300p0x;
+    padding: 50px 50px;
+    margin: 70px auto;    
+    border-radius: 10px;
+
+}
+
+.bovid{
+    color: #162e6e;
+    text-align: center;
+    background-color: #ffffff;
+    width: 800px;
+    padding: 30px 30px;
+    margin: 70px auto;
+    display: block;   
+    left: 80%;
+}
+
+.ki1{
+    color: #0a0514;
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 25px 20px;
+    margin: 15px auto;
+    box-shadow: 0 2px 5px rgba(104, 100, 225, 0.1)
+}
+.ki{
+    display: flex;
+    justify-content: space-around;
+}
+
+.ki2 { /* column 1*/
+    text-align: center;
+    border-radius: 10px;
+    padding: 25px 20px;
+    display: center;
+    margin-left: 50px;
+    color: #162e6e;
+    text-align: center;
+    background-color: #ffffffa9;
+    width: 900px;
+    padding: 30px 30px;
+    margin: 70px;
+    display: block; 
+}
+.ki3{ /* column 1*/
+    text-align: center;
+    border-radius: 10px;
+    padding: 25px 20px;
+    display: center;
+    margin-right: 50px;
+    color: #162e6e;
+    text-align: center;
+    background-color: #ffffffa9;
+    width: 900px;
+    padding: 30px 30px;
+    margin: 70px;
+    display: block; 
+}
+.box-ki{
+    display: block;      
+    margin-left: auto; 
+    margin-right: auto;  
+    width: 35%;          
+    max-width: 250%;
+    height: auto;
+    color: #162e6e;
+    text-align: center;
+    background-color: #ffffff;
+    width: 420px;
+    padding: 30px 30px;
+    margin: 70px auto;
+}
+.ki4{
+    text-align: center;
+    border-radius: 10px;
+    padding: 25px 20px;
+    display: center;
+    margin-left: 50px;    
+}
+.ki5{
+    text-align: center;
+    background-color: #fa655a;
+    border-radius: 10px;
+    padding: 25px 20px;
+
+}
+.ki6{
+    color: #162e6e;
+    text-align: center;
+    background-color: #ffffffa9;
+    width: 800px;
+    height: 350px;
+    padding: 50px 50px;
+    margin: 70px auto;    
+    border-radius: 10px;
+}
+
+.kivid{
+    color: #162e6e;
+    text-align: center;
+    background-color: #ffffff;
+    width: 800px;
+    padding: 30px 30px;
+    margin: 70px auto;
+    display: block;   
+    left: 80%;
+}
+
+.con {
+    color: #0a0514;
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 25px 20px;
+    margin: 15px auto;
+    box-shadow: 0 2px 5px rgba(104, 100, 225, 0.1)
+}
+
+
+
+.line-button {
+    display: inline-block;
+    padding: 50px 105px;
+    border-radius: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: #89BE31;
+    border: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: backgroun-color 0.3 ease;
+
+}
+
+.line-button:hover {
+    background-color: #78A53B;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.line-button:active {
+    background-color: #B4DB80;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    transform: translateY(1px);
+}
+
+.fbbut-button {
+    display: inline-block;
+    padding: 50px 105px;
+    border-radius: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: #3159be;
+    border: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: backgroun-color 0.3 ease;
+
+}
+
+.fbbut-button:hover {
+    background-color: #3b54a5;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.fbbut-button:active {
+    background-color: #80a0db;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    transform: translateY(1px);
+}
+
+
+.center{
+    display: flex;
+    justify-content: center;
+}
+
+.ques{
+     color: #0a0514;
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 25px 20px;
+    margin: 15px auto;
+    box-shadow: 0 2px 5px rgba(104, 100, 225, 0.1)
+}
+
+.abo-image{
+    background-image: url('aboutus2.jpg');
+    background-size: cover; /*ปรับให้ภาพพอดีกับหน้าจอ*/
+    background-position: center; /*จัดตำแหน่งให้อยู่ตรงกลาง*/
+    background-repeat: no-repeat; /*ไม่ให้ภาพซ้ำ*/
+    width: 100%;
+    height: 100vh; /*ใช้ความสูงเต็มหน้าจอ*/
+}
+
+.Pt3, .Pt4, .Pt5, .Pt6, .Pt7, .Pt8, .Pt9, .Pt10, .Pt11, .Pt12 {
+   
+    width: 50%;
+    height: 70px;
+    background-color:#fef8fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    font-size: 45px;
+    margin: 70px auto;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 60%;
+    box-shadow: 0 9px 0 0 #79583d;
+}
+
+.boxex9, .boxex5, .boxex2, .boxex1 {
+    display: block;      
+    margin-left: auto; 
+    margin-right: auto;  
+    width: 35%;          
+    max-width: 250%;
+    height: auto;
+    color: #162e6e;
+    text-align: center;
+    background-color: #ffffff;
+    width: 420px;
+    padding: 30px 30px;
+    margin: 70px auto;
+}
+
+.pt11{ 
+    color: #0a0514;
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 25px 20px;
+    margin: 15px auto;
+    box-shadow: 0 2px 5px rgba(104, 100, 225, 0.1)
+}
+.ex1{ /*รูปและข้อความ*/
+    display: flex;
+    justify-content: space-around;
+}
+.boxex1{ /*รูป*/
+    display: block;      
+    margin-left: auto; 
+    margin-right: auto;  
+    width: 40%;          
+    max-width: 350%;
+    height: auto;
+    color: #162e6e;
+    text-align: center;
+    background-color: #ffffff;
+    width: 500px;
+    padding: 40px 40px; /*ขอบรุป */
+    margin: 70px auto;
+}
+.ex11{ /*ข้อความ*/
+    text-align: left;
+    border-radius: 10px;
+    padding: 25px 20px;
+    color: #162e6e;
+    text-align: center;
+    background-color: #ffffffa9;
+    width: 900px;
+    padding: 50px 50px;
+    margin: 70px auto;    
+} 
+
+.ex2{ /*รูปและข้อความ*/
+    display: flex;
+    justify-content: space-around;
+}
+.boxex2{ /*รูป*/
+    display: block;      
+    margin-left: auto; 
+    margin-right: auto;  
+    width: 40%;          
+    max-width: 350%;
+    height: auto;
+    color: #162e6e;
+    text-align: center;
+    background-color: #ffffff;
+    width: 500px;
+    padding: 40px 40px; /*ขอบรุป */
+    margin: 70px auto;
+}
+.ex22{ /*ข้อความ*/
+    text-align: left;
+    border-radius: 10px;
+    padding: 25px 20px;
+    color: #162e6e;
+    text-align: center;
+    background-color: #ffffffa9;
+    width: 900px;
+    padding: 50px 50px;
+    margin: 70px auto;    
+}
+
+.ex3{ /*รูปและข้อความ*/
+    display: flex;
+    justify-content: space-around;
+}
+.boxex3{ /*รูป*/
+    display: block;      
+    margin-left: auto; 
+    margin-right: auto;  
+    width: 40%;          
+    max-width: 350%;
+    height: auto;
+    color: #162e6e;
+    text-align: center;
+    background-color: #ffffff;
+    width: 500px;
+    padding: 40px 40px; /*ขอบรุป */
+    margin: 70px auto;
+}
+.ex33{ /*ข้อความ*/
+    text-align: left;
+    border-radius: 10px;
+    padding: 25px 20px;
+    color: #162e6e;
+    text-align: center;
+    background-color: #ffffffa9;
+    width: 900px;
+    padding: 50px 50px;
+    margin: 70px auto;    
+}
+
+.ex4{ /*รูปและข้อความ*/
+    display: flex;
+    justify-content: space-around;
+}
+.boxex4{ /*รูป*/
+    display: block;      
+    margin-left: auto; 
+    margin-right: auto;  
+    width: 40%;          
+    max-width: 350%;
+    height: auto;
+    color: #162e6e;
+    text-align: center;
+    background-color: #ffffff;
+    width: 500px;
+    padding: 40px 40px; /*ขอบรุป */
+    margin: 70px auto;
+}
+.ex44{ /*ข้อความ*/
+    text-align: left;
+    border-radius: 10px;
+    padding: 25px 20px;
+    color: #162e6e;
+    text-align: center;
+    background-color: #ffffffa9;
+    width: 900px;
+    padding: 50px 50px;
+    margin: 70px auto;    
+}
+
+.ex5{ /*รูปและข้อความ*/
+    display: flex;
+    justify-content: space-around;
+}
+.boxex5{ /*รูป*/
+    display: block;      
+    margin-left: auto; 
+    margin-right: auto;  
+    width: 40%;          
+    max-width: 350%;
+    height: auto;
+    color: #162e6e;
+    text-align: center;
+    background-color: #ffffff;
+    width: 500px;
+    padding: 40px 40px; /*ขอบรุป */
+    margin: 70px auto;
+}
+.ex55{ /*ข้อความ*/
+    text-align: left;
+    border-radius: 10px;
+    padding: 25px 20px;
+    color: #162e6e;
+    text-align: center;
+    background-color: #ffffffa9;
+    width: 900px;
+    padding: 50px 50px;
+    margin: 70px auto;    
+}
+
+.ex6{ /*รูปและข้อความ*/
+    display: flex;
+    justify-content: space-around;
+}
+.boxex6{ /*รูป*/
+    display: block;      
+    margin-left: auto; 
+    margin-right: auto;  
+    width: 40%;          
+    max-width: 350%;
+    height: auto;
+    color: #162e6e;
+    text-align: center;
+    background-color: #ffffff;
+    width: 500px;
+    padding: 40px 40px; /*ขอบรุป */
+    margin: 70px auto;
+}
+.ex66{ /*ข้อความ*/
+    text-align: left;
+    border-radius: 10px;
+    padding: 25px 20px;
+    color: #162e6e;
+    text-align: center;
+    background-color: #ffffffa9;
+    width: 900px;
+    padding: 50px 50px;
+    margin: 70px auto;    
+}
+
+.ex7{ /*รูปและข้อความ*/
+    display: flex;
+    justify-content: space-around;
+}
+.boxex7{ /*รูป*/
+    display: block;      
+    margin-left: auto; 
+    margin-right: auto;  
+    width: 40%;          
+    max-width: 350%;
+    height: auto;
+    color: #162e6e;
+    text-align: center;
+    background-color: #ffffff;
+    width: 500px;
+    padding: 40px 40px; /*ขอบรุป */
+    margin: 70px auto;
+}
+.ex77{ /*ข้อความ*/
+    text-align: left;
+    border-radius: 10px;
+    padding: 25px 20px;
+    color: #162e6e;
+    text-align: center;
+    background-color: #ffffffa9;
+    width: 900px;
+    padding: 50px 50px;
+    margin: 70px auto;    
+}
+
+.ex8{ /*รูปและข้อความ*/
+    display: flex;
+    justify-content: space-around;
+}
+.boxex8{ /*รูป*/
+    display: block;      
+    margin-left: auto; 
+    margin-right: auto;  
+    width: 40%;          
+    max-width: 350%;
+    height: auto;
+    color: #162e6e;
+    text-align: center;
+    background-color: #ffffff;
+    width: 500px;
+    padding: 40px 40px; /*ขอบรุป */
+    margin: 70px auto;
+}
+.ex88{ /*ข้อความ*/
+    text-align: left;
+    border-radius: 10px;
+    padding: 25px 20px;
+    color: #162e6e;
+    text-align: center;
+    background-color: #ffffffa9;
+    width: 900px;
+    padding: 50px 50px;
+    margin: 70px auto;    
+}
+
+.ex9{ /*รูปและข้อความ*/
+    display: flex;
+    justify-content: space-around;
+}
+.boxex9{ /*รูป*/
+    display: block;      
+    margin-left: auto; 
+    margin-right: auto;  
+    width: 40%;          
+    max-width: 350%;
+    height: auto;
+    color: #162e6e;
+    text-align: center;
+    background-color: #ffffff;
+    width: 500px;
+    padding: 40px 40px; /*ขอบรุป */
+    margin: 70px auto;
+}
+.ex99{ /*ข้อความ*/
+    text-align: left;
+    border-radius: 10px;
+    padding: 25px 20px;
+    color: #162e6e;
+    text-align: center;
+    background-color: #ffffffa9;
+    width: 900px;
+    padding: 50px 50px;
+    margin: 70px auto;    
+}
+
+.ex10{ /*รูปและข้อความ*/
+    display: flex;
+    justify-content: space-around;
+}
+.boxex10{ /*รูป*/
+    display: block;      
+    margin-left: auto; 
+    margin-right: auto;  
+    width: 40%;          
+    max-width: 350%;
+    height: auto;
+    color: #162e6e;
+    text-align: center;
+    background-color: #ffffff;
+    width: 500px;
+    padding: 40px 40px; /*ขอบรุป */
+    margin: 70px auto;
+}
+.ex1010{ /*ข้อความ*/
+    text-align: left;
+    border-radius: 10px;
+    padding: 25px 20px;
+    color: #162e6e;
+    text-align: center;
+    background-color: #ffffffa9;
+    width: 900px;
+    padding: 50px 50px;
+    margin: 70px auto;    
+}
+
+.ex12{ /*ข้อความ*/
+    text-align: left;
+    border-radius: 10px;
+    padding: 25px 20px;
+    color: #8143a2;
+    text-align: center;
+    background-color: #ffffffa9;
+    width: 900px;
+    padding: 50px 50px;
+    margin: 70px auto;    
+}
+
+.text3{ /*รูปและข้อความ*/
+    display: flex;
+    justify-content: space-around;
+}
+.tt3{ /*รูป*/
+    display: block;      
+    margin-left: auto; 
+    margin-right: auto;  
+    width: 40%;          
+    max-width: 350%;
+    height: auto;
+    color: #162e6e;
+    text-align: center;
+    background-color: #ffffff;
+    width: 500px;
+    padding: 40px 40px; /*ขอบรุป */
+    margin: 70px auto;
+}
+.t3{ /*ข้อความ*/
+    text-align: left;
+    border-radius: 10px;
+    padding: 25px 20px;
+    color: #162e6e;
+    text-align: center;
+    background-color: #ffffffa9;
+    width: 900px;
+    padding: 50px 50px;
+    margin: 70px auto;    
+}
+.text4{ /*รูปและข้อความ*/
+    display: flex;
+    justify-content: space-around;
+}
+.tt4{ /*รูป*/
+    display: block;      
+    margin-left: auto; 
+    margin-right: auto;  
+    width: 40%;          
+    max-width: 350%;
+    height: auto;
+    color: #162e6e;
+    text-align: center;
+    background-color: #ffffff;
+    width: 500px;
+    padding: 40px 40px; /*ขอบรุป */
+    margin: 70px auto;
+}
+.t4{ /*ข้อความ*/
+    text-align: left;
+    border-radius: 10px;
+    padding: 25px 20px;
+    color: #162e6e;
+    text-align: center;
+    background-color: #ffffffa9;
+    width: 900px;
+    padding: 50px 50px;
+    margin: 70px auto;    
+}
+.text5{ /*รูปและข้อความ*/
+    display: flex;
+    justify-content: space-around;
+}
+.tt5{ /*รูป*/
+    display: block;      
+    margin-left: auto; 
+    margin-right: auto;  
+    width: 40%;          
+    max-width: 350%;
+    height: auto;
+    color: #162e6e;
+    text-align: center;
+    background-color: #ffffff;
+    width: 500px;
+    padding: 40px 40px; /*ขอบรุป */
+    margin: 70px auto;
+}
+.t5{ /*ข้อความ*/
+    text-align: left;
+    border-radius: 10px;
+    padding: 25px 20px;
+    color: #162e6e;
+    text-align: center;
+    background-color: #ffffffa9;
+    width: 900px;
+    padding: 50px 50px;
+    margin: 70px auto;    
+}
+.text6{ /*รูปและข้อความ*/
+    display: flex;
+    justify-content: space-around;
+}
+.tt6{ /*รูป*/
+    display: block;      
+    margin-left: auto; 
+    margin-right: auto;  
+    width: 40%;          
+    max-width: 350%;
+    height: auto;
+    color: #162e6e;
+    text-align: center;
+    background-color: #ffffff;
+    width: 500px;
+    padding: 40px 40px; /*ขอบรุป */
+    margin: 70px auto;
+}
+.t6{ /*ข้อความ*/
+    text-align: left;
+    border-radius: 10px;
+    padding: 25px 20px;
+    color: #162e6e;
+    text-align: center;
+    background-color: #ffffffa9;
+    width: 900px;
+    padding: 50px 50px;
+    margin: 70px auto;    
+}
+.text7{ /*รูปและข้อความ*/
+    display: flex;
+    justify-content: space-around;
+}
+.tt7{ /*รูป*/
+    display: block;      
+    margin-left: auto; 
+    margin-right: auto;  
+    width: 40%;          
+    max-width: 350%;
+    height: auto;
+    color: #162e6e;
+    text-align: center;
+    background-color: #ffffff;
+    width: 500px;
+    padding: 40px 40px; /*ขอบรุป */
+    margin: 70px auto;
+}
+.t7{ /*ข้อความ*/
+    text-align: left;
+    border-radius: 10px;
+    padding: 25px 20px;
+    color: #162e6e;
+    text-align: center;
+    background-color: #ffffffa9;
+    width: 900px;
+    padding: 50px 50px;
+    margin: 70px auto;    
+}
+.text8{ /*รูปและข้อความ*/
+    display: flex;
+    justify-content: space-around;
+}
+.tt8{ /*รูป*/
+    display: block;      
+    margin-left: auto; 
+    margin-right: auto;  
+    width: 40%;          
+    max-width: 350%;
+    height: auto;
+    color: #162e6e;
+    text-align: center;
+    background-color: #ffffff;
+    width: 500px;
+    padding: 40px 40px; /*ขอบรุป */
+    margin: 70px auto;
+}
+.t8{ /*ข้อความ*/
+    text-align: left;
+    border-radius: 10px;
+    padding: 25px 20px;
+    color: #162e6e;
+    text-align: center;
+    background-color: #ffffffa9;
+    width: 900px;
+    padding: 50px 50px;
+    margin: 70px auto;    
+}
+.text9{ /*รูปและข้อความ*/
+    display: flex;
+    justify-content: space-around;
+}
+.tt9{ /*รูป*/
+    display: block;      
+    margin-left: auto; 
+    margin-right: auto;  
+    width: 40%;          
+    max-width: 350%;
+    height: auto;
+    color: #162e6e;
+    text-align: center;
+    background-color: #ffffff;
+    width: 500px;
+    padding: 40px 40px; /*ขอบรุป */
+    margin: 70px auto;
+}
+.t9{ /*ข้อความ*/
+    text-align: left;
+    border-radius: 10px;
+    padding: 25px 20px;
+    color: #162e6e;
+    text-align: center;
+    background-color: #ffffffa9;
+    width: 900px;
+    padding: 50px 50px;
+    margin: 70px auto;    
+}
+.text10{ /*รูปและข้อความ*/
+    display: flex;
+    justify-content: space-around;
+}
+.tt10{ /*รูป*/
+    display: block;      
+    margin-left: auto; 
+    margin-right: auto;  
+    width: 40%;          
+    max-width: 350%;
+    height: auto;
+    color: #162e6e;
+    text-align: center;
+    background-color: #ffffff;
+    width: 500px;
+    padding: 40px 40px; /*ขอบรุป */
+    margin: 70px auto;
+}
+.t10{ /*ข้อความ*/
+    text-align: left;
+    border-radius: 10px;
+    padding: 25px 20px;
+    color: #162e6e;
+    text-align: center;
+    background-color: #ffffffa9;
+    width: 900px;
+    padding: 50px 50px;
+    margin: 70px auto;    
+}
+.text11{ /*รูปและข้อความ*/
+    display: flex;
+    justify-content: space-around;
+}
+.tt11{ /*รูป*/
+    display: block;      
+    margin-left: auto; 
+    margin-right: auto;  
+    width: 40%;          
+    max-width: 350%;
+    height: auto;
+    color: #162e6e;
+    text-align: center;
+    background-color: #ffffff;
+    width: 500px;
+    padding: 40px 40px; /*ขอบรุป */
+    margin: 70px auto;
+}
+.t11{ /*ข้อความ*/
+    text-align: left;
+    border-radius: 10px;
+    padding: 25px 20px;
+    color: #162e6e;
+    text-align: center;
+    background-color: #ffffffa9;
+    width: 900px;
+    padding: 50px 50px;
+    margin: 70px auto;    
+}
+.di {
+    color: #142e5e;
+    text-align: center;
+    align-items: center;
+    background-color: #ffffffb7;
+    border-radius: 20px;
+    padding: 70px 50px;
+    margin: 70px auto;
+    width: 500px;
+    box-shadow: 0 2px 5px rgba(104, 100, 225, 0.1)
+}
+
+
+.di1{ /*รูปและข้อความ*/
+    display: flex;
+    justify-content: space-around;
+}
+.ditext1{ /*ข้อความ*/
+    text-align: left;
+    border-radius: 10px;
+    padding: 25px 20px;
+    color: #162e6e;
+    text-align: center;
+    background-color: #ffffffa9;
+    width: 900px;
+    padding: 50px 50px;
+    margin: 70px auto;    
+}
+.dibox11{ /*รูป*/
+    display: block;      
+    margin-left: auto; 
+    margin-right: auto;  
+    width: 40%;          
+    max-width: 350%;
+    height: auto;
+    color: #162e6e;
+    text-align: center;
+    background-color: #ffffff;
+    width: 500px;
+    padding: 40px 40px; /*ขอบรุป */
+    margin: 70px auto;
+}
+.di2{ /*รูปและข้อความ*/
+    display: flex;
+    justify-content: space-around;
+}
+.ditext2{ /*ข้อความ*/
+    text-align: left;
+    border-radius: 10px;
+    padding: 25px 20px;
+    color: #162e6e;
+    text-align: center;
+    background-color: #ffffffa9;
+    width: 900px;
+    padding: 50px 50px;
+    margin: 70px auto;    
+}
+.dibox22{ /*รูป*/
+    display: block;      
+    margin-left: auto; 
+    margin-right: auto;  
+    width: 40%;          
+    max-width: 350%;
+    height: auto;
+    color: #162e6e;
+    text-align: center;
+    background-color: #ffffff;
+    width: 500px;
+    padding: 40px 40px; /*ขอบรุป */
+    margin: 70px auto;
+}
+.di3{ /*รูปและข้อความ*/
+    display: flex;
+    justify-content: space-around;
+}
+.ditext3{ /*ข้อความ*/
+    text-align: left;
+    border-radius: 10px;
+    padding: 25px 20px;
+    color: #162e6e;
+    text-align: center;
+    background-color: #ffffffa9;
+    width: 900px;
+    padding: 50px 50px;
+    margin: 70px auto;    
+}
+.dibox33{ /*รูป*/
+    display: block;      
+    margin-left: auto; 
+    margin-right: auto;  
+    width: 40%;          
+    max-width: 350%;
+    height: auto;
+    color: #162e6e;
+    text-align: center;
+    background-color: #ffffff;
+    width: 500px;
+    padding: 40px 40px; /*ขอบรุป */
+    margin: 70px auto;
+}
+.di4{ /*รูปและข้อความ*/
+    display: flex;
+    justify-content: space-around;
+}
+.ditext4{ /*ข้อความ*/
+    text-align: left;
+    border-radius: 10px;
+    padding: 25px 20px;
+    color: #162e6e;
+    text-align: center;
+    background-color: #ffffffa9;
+    width: 900px;
+    padding: 50px 50px;
+    margin: 70px auto;    
+}
+.dibox44{ /*รูป*/
+    display: block;      
+    margin-left: auto; 
+    margin-right: auto;  
+    width: 40%;          
+    max-width: 350%;
+    height: auto;
+    color: #162e6e;
+    text-align: center;
+    background-color: #ffffff;
+    width: 500px;
+    padding: 40px 40px; /*ขอบรุป */
+    margin: 70px auto;
+}
+.di5{ /*รูปและข้อความ*/
+    display: flex;
+    justify-content: space-around;
+}
+.ditext5{ /*ข้อความ*/
+    text-align: left;
+    border-radius: 10px;
+    padding: 25px 20px;
+    color: #162e6e;
+    text-align: center;
+    background-color: #ffffffa9;
+    width: 900px;
+    padding: 50px 50px;
+    margin: 70px auto;    
+}
+.dibox55{ /*รูป*/
+    display: block;      
+    margin-left: auto; 
+    margin-right: auto;  
+    width: 40%;          
+    max-width: 350%;
+    height: auto;
+    color: #162e6e;
+    text-align: center;
+    background-color: #ffffff;
+    width: 500px;
+    padding: 40px 40px; /*ขอบรุป */
+    margin: 70px auto;
+}
