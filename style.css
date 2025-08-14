@@ -30,10 +30,19 @@ body { /*ขอบตัวอักษร*/
   }
 }
 
+  .container {
+    flex-direction: column;
+  }
+  .card {
+    width: 100%;
+  }
+
+
 @media (min-width: 768px) {
   body {
     font-size: 18px;
   }
+  
 }
 
 .kanit-thin {
