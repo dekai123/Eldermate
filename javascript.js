@@ -331,6 +331,130 @@ document.addEventListener('DOMContentLoaded', () => {
     else if (searchValue === 'ท่าออกกำลังกาย') {
       window.location.href = 'physical.html';
     } 
+
+    else if (searchValue === 'โภชนาการ') {
+      window.location.href = 'dudu.html';
+    } 
+    else if (searchValue === 'หมู่') {
+      window.location.href = 'dudu.html';
+    } 
+    else if (searchValue === 'หมู่1') {
+      window.location.href = 'dudu.html';
+    } 
+    else if (searchValue === 'หมู่ 1') {
+      window.location.href = 'dudu.html';
+    } 
+    else if (searchValue === 'หมู่ที่1') {
+      window.location.href = 'dudu.html';
+    } 
+     else if (searchValue === 'หมู่ที่ 1') {
+      window.location.href = 'dudu.html';
+    } 
+     else if (searchValue === 'โปรตีน') {
+      window.location.href = 'dudu.html';
+    } 
+     else if (searchValue === 'protein') {
+      window.location.href = 'dudu.html';
+    } 
+    
+
+    else if (searchValue === 'หมู่') {
+      window.location.href = 'dudu.html';
+    } 
+    else if (searchValue === 'หมู่2') {
+      window.location.href = 'dudu.html';
+    } 
+    else if (searchValue === 'หมู่ 2') {
+      window.location.href = 'dudu.html';
+    } 
+    else if (searchValue === 'หมู่ที่2') {
+      window.location.href = 'dudu.html';
+    } 
+     else if (searchValue === 'หมู่ที่ 2') {
+      window.location.href = 'dudu.html';
+    } 
+     else if (searchValue === 'คาร์โบไฮเดรต') {
+      window.location.href = 'dudu.html';
+    } 
+         else if (searchValue === 'คาร์บ') {
+      window.location.href = 'dudu.html';
+    } 
+     else if (searchValue === 'carbohydrate') {
+      window.location.href = 'dudu.html';
+    } 
+
+
+    else if (searchValue === 'หมู่') {
+      window.location.href = 'dudu.html';
+    } 
+    else if (searchValue === 'หมู่3') {
+      window.location.href = 'dudu.html';
+    } 
+    else if (searchValue === 'หมู่ 3') {
+      window.location.href = 'dudu.html';
+    } 
+    else if (searchValue === 'หมู่ที่3') {
+      window.location.href = 'dudu.html';
+    } 
+     else if (searchValue === 'หมู่ที่ 3') {
+      window.location.href = 'dudu.html';
+    } 
+     else if (searchValue === 'เกลือแร่') {
+      window.location.href = 'dudu.html';
+    } 
+         else if (searchValue === 'mineral salt') {
+      window.location.href = 'dudu.html';
+    } 
+     else if (searchValue === 'ผัก') {
+      window.location.href = 'dudu.html';
+    } 
+
+
+    else if (searchValue === 'หมู่') {
+      window.location.href = 'dudu.html';
+    } 
+    else if (searchValue === 'หมู่4') {
+      window.location.href = 'dudu.html';
+    } 
+    else if (searchValue === 'หมู่ 4') {
+      window.location.href = 'dudu.html';
+    } 
+    else if (searchValue === 'หมู่ที่4') {
+      window.location.href = 'dudu.html';
+    } 
+     else if (searchValue === 'หมู่ที่ 4') {
+      window.location.href = 'dudu.html';
+    } 
+     else if (searchValue === 'วิตามิน') {
+      window.location.href = 'dudu.html';
+    } 
+         else if (searchValue === 'vitamin') {
+      window.location.href = 'dudu.html';
+    } 
+   
+     else if (searchValue === 'หมู่') {
+      window.location.href = 'dudu.html';
+    } 
+    else if (searchValue === 'หมู่5') {
+      window.location.href = 'dudu.html';
+    } 
+    else if (searchValue === 'หมู่ 5') {
+      window.location.href = 'dudu.html';
+    } 
+    else if (searchValue === 'หมู่ที่5') {
+      window.location.href = 'dudu.html';
+    } 
+     else if (searchValue === 'หมู่ที่ 5') {
+      window.location.href = 'dudu.html';
+    } 
+     else if (searchValue === 'ไขมัน') {
+      window.location.href = 'dudu.html';
+    } 
+         else if (searchValue === 'fat') {
+      window.location.href = 'dudu.html';
+    } 
+    
+
  
 
 
